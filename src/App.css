@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
+body {
+  font-family: 'poppins', sans-serif;
+}
+
+.card {
+  background-color: rgb(242, 242, 242);
+  margin-left: 10%;
+  margin-right: 10%;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.stars {
+  font-size: 25px;
+}
+
+#stars {
+  cursor: pointer;
+}
+
+.stars:hover,
+.star1,
+.star2,
+.star3,
+.star4 {
+  color: gold;
+}
+
+.star5 {
+  color: grey;
+}
+
+.stock {
+  color: red;
+}
+
+.h-10 {
+  height: 100px;
+  background-color: rgb(250, 248, 248);
+  z-index: 1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.price,
+.qty {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .qty,
+  .price {
+    font-size: 10px;
+  }
+}
